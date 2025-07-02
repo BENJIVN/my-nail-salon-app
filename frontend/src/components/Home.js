@@ -1,17 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import '../styles/custom.css';
 
 function Home() {
-  return (
-    <Container className="mt-5">
-        <Row className="justify-content-md-center">
-          <Col xs="auto" className="text-center">
-          <h1>Welcome to the Tiffani Nails Database!</h1>
-          <p>This is the homepage cuz</p>
-        </Col> 
-        </Row>
-    </Container>
-  );
+  return <h1 className="custom-title">Welcome to Tiffani Nails Database</h1>
 }
 
 export default Home;

@@ -17,7 +17,8 @@ function Login(){
             <Container>
                 <Row className='justify-content-md-center mt-5'>
                     <Col xs={12} md={6}>
-                        <h2 className="text-center mb-4">Login</h2>
+                        <h2 className="text-center mb-4 fs-1 fw-bold">LOGIN</h2>
+                        <p className="">*Login with your company email or as admin*</p>
                         <Form onSubmit={handleSubmit}>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Email address</Form.Label>
