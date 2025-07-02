@@ -16,7 +16,7 @@ function Login(){
 
 return (
     <Container>
-        <Row className='justify-content-md-center mt-5'>
+        <Row className='justify-content-md-center mt-6'>
             <Col xs={12} md={6}>
                 <h2 className="text-center mb-4">Login</h2>
                 <Form onSubmit={handleSubmit}>
